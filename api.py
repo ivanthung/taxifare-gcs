@@ -4,4 +4,4 @@ app = FastAPI()
 
 @app.get("/")
 def root():
-    return "Hello from the Cloud Run"
+    return "I updated myself with Continuous Deployment in the Cloud Run"
